@@ -1,15 +1,13 @@
-/* General Page Styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #f4f4f4;
+  background: #f9f7f2; /* light cream */
   color: #333;
 }
 
-/* Header and Navigation */
 header {
-  background: #1e3a34; /* Deep green-blue */
+  background: #1e3a34; /* deep green */
   padding: 1em 0;
 }
 
@@ -36,13 +34,15 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-/* Main Content */
 main {
   padding: 2em;
   background-color: #ffffff;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
 
-/* Footer */
 footer {
   text-align: center;
   padding: 1em 0;
