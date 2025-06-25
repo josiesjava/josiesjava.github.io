@@ -2,12 +2,12 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #f9f7f2; /* soft cream to match logo */
+  background: #f9f7f2; /* soft cream background */
   color: #333;
 }
 
 header {
-  background: #1e3a34;
+  background: #163a2b; /* updated deep green to match logo */
   padding: 1em 0;
 }
 
@@ -36,12 +36,24 @@ nav ul li a:hover {
 
 main {
   padding: 2em;
-  background-color: transparent; /* override white */
+  background-color: transparent;
+  max-width: 900px;
+  margin: auto;
 }
 
 footer {
   text-align: center;
   padding: 1em 0;
-  background: #1e3a34;
+  background: #163a2b; /* updated deep green */
   color: white;
+}
+
+.logo {
+  text-align: center;
+  padding: 2em 0 1em;
+}
+
+.logo img {
+  max-width: 200px;
+  height: auto;
 }
