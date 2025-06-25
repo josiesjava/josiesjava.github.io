@@ -48,13 +48,13 @@ footer {
   color: white;
 }
 
-/* Logo container */
+/* Default logo container */
 .logo {
   text-align: center;
   padding: 2em 0 1em;
 }
 
-/* Default logo style for other pages */
+/* Regular logo styling (for other pages) */
 .logo img {
   width: 200px;
   max-width: 90%;
@@ -63,10 +63,10 @@ footer {
   margin: 0 auto;
 }
 
-/* Bigger logo only on homepage */
+/* 🐶 Bigger logo just for homepage */
 .hero-logo {
   width: 100%;
-  max-width: 550px;
+  max-width: 600px;
   display: block;
   margin: 3rem auto 2rem;
 }
