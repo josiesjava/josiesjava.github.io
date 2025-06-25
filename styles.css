@@ -55,9 +55,8 @@ footer {
 }
 
 .logo img {
-  width: 200px;         /* force an exact width */
-  max-width: 90%;       /* allow it to scale down if needed */
-  height: auto;
+  width: 200px !important;
+  height: auto !important;
   display: block;
   margin: 0 auto;
 }
