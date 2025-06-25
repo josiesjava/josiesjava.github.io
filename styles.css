@@ -1,41 +1,59 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Josie's Java</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header>
-    <div class="logo">
-      <img src="logo.png" alt="Josie's Java Logo" />
-    </div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="menu.html">Menu</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="order.html">Order Ahead</a></li>
-        <li><a href="events.html">Events</a></li>
-        <li><a href="donate.html">Donate</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="jobs.html">Jobs</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f7f2; /* soft cream background */
+  color: #333;
+}
 
-  <main>
-    <section>
-      <h1>Welcome to Josie's Java</h1>
-      <p>Brewing love in every cup – one tail wag at a time.</p>
-      <p>Richmond & Rosenberg's favorite (soon-to-open!) drive-thru coffee trailer.</p>
-    </section>
-  </main>
+header {
+  background: #2d3b25; /* perfect match from Josie's logo */
+  padding: 1em 0;
+}
 
-  <footer>
-    <p>&copy; 2025 Josie's Java. All rights reserved.</p>
-  </footer>
-</body>
-</html>
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2em;
+  background-color: transparent;
+  max-width: 900px;
+  margin: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 1em 0;
+  background: #2d3b25; /* exact match */
+  color: white;
+}
+
+.logo {
+  text-align: center;
+  padding: 2em 0 1em;
+}
+
+.logo img {
+  max-width: 200px;
+  height: auto;
+}
