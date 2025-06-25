@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background: #105b46; /* exact background green from Josie's logo */
+  background: #105b46; /* exact green from Josie's logo */
   padding: 1em 0;
 }
 
@@ -27,33 +27,4 @@ nav ul li {
 nav ul li a {
   color: white;
   text-decoration: none;
-  font-weight: bold;
-}
-
-nav ul li a:hover {
-  text-decoration: underline;
-}
-
-main {
-  padding: 2em;
-  background-color: transparent;
-  max-width: 900px;
-  margin: auto;
-}
-
-footer {
-  text-align: center;
-  padding: 1em 0;
-  background: #105b46; /* match header */
-  color: white;
-}
-
-.logo {
-  text-align: center;
-  padding: 2em 0 1em;
-}
-
-.logo img {
-  max-width: 200px;
-  height: auto;
-}
+  font-weight
