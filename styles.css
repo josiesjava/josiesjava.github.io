@@ -1,51 +1,12 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #f9f7f2; /* light cream */
-  color: #333;
-}
-
-header {
-  background: #1e3a34; /* deep green */
-  padding: 1em 0;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
-}
-
-nav ul li {
-  margin: 0 15px;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-nav ul li a:hover {
-  text-decoration: underline;
-}
-
-main {
-  padding: 2em;
-  background-color: #ffffff;
-  border-radius: 12px;
-  max-width: 900px;
-  margin: auto;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
-}
-
-footer {
-  text-align: center;
-  padding: 1em 0;
-  background: #1e3a34;
-  color: white;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Josie's Java</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div style="text-align: center; padding: 1em 0;">
+      <div style="display: inline-block; padding:
