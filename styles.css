@@ -48,15 +48,24 @@ footer {
   color: white;
 }
 
-/* ✅ Logo Styling */
+/* Logo Styling */
 .logo {
   text-align: center;
   padding: 2em 0 1em;
 }
 
 .logo img {
-  width: 200px !important;
-  height: auto !important;
+  width: 200px;
+  max-width: 90%;
+  height: auto;
   display: block;
   margin: 0 auto;
+}
+
+/* Bigger logo only on homepage */
+.hero-logo {
+  width: 90%;
+  max-width: 400px;
+  display: block;
+  margin: 2rem auto;
 }
