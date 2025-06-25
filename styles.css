@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background: #2d3b25; /* perfect match from Josie's logo */
+  background: #105b46; /* exact background green from Josie's logo */
   padding: 1em 0;
 }
 
@@ -44,7 +44,7 @@ main {
 footer {
   text-align: center;
   padding: 1em 0;
-  background: #2d3b25; /* exact match */
+  background: #105b46; /* match header */
   color: white;
 }
 
